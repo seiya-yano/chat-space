@@ -15,7 +15,7 @@ Things you may want to cover:
 
 ## usersテーブル
 |Column|Type|Options|
-|------|----|-------|
+|:-----|:---|:------|
 |name|string|null: false|
 |email|string|null: false|
 
@@ -27,7 +27,7 @@ Things you may want to cover:
 
 ## groupsテーブル
 |Column|Type|Options|
-|------|----|-------|
+|:-----|:---|:------|
 |name|string|null: false|
 
 ### groups-Association
@@ -37,7 +37,7 @@ Things you may want to cover:
 
 ## tweetsテーブル
 |Column|Type|Options|
-|------|----|-------|
+|:-----|:---|:------|
 |body|text|-------|
 |image|string|-------|
 |users_id|integer|null: false,foreign_key: true|
@@ -49,7 +49,7 @@ Things you may want to cover:
 
 ## groups_usersテーブル
 |Column|Type|Options|
-|------|----|-------|
+|:-----|:---|:------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
