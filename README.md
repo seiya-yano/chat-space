@@ -17,13 +17,12 @@ Things you may want to cover:
 |Column|Type|Options|
 |:-----|:---|:------|
 |name|string|null: false|
-|email|string|null: false|
+|email|string|null: false, unique :true, index :true|
 
 ### users-Association
 - has_many :groups_users
 - has_many :tweets
 - has_many :groups, through: :groups_users
-- add_index :email, unique:true
 
 ## groupsテーブル
 |Column|Type|Options|
