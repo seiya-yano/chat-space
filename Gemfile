@@ -61,3 +61,7 @@ gem 'mini_magick'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+group :production do
+  gem 'unicorn', '5.4.1'
+end
